@@ -1,0 +1,24 @@
+{
+  "name": "static-image-galery",
+  "version": "1.0.0",
+  "description": "Generate thumbnails and a JSON for folders containing images.",
+  "bin": "index.js",
+  "scripts": {
+    "test": "node . samples/mirror samples/result",
+    "test:watch": "nodemon . samples/mirror samples/result -e js"
+  },
+  "author": "lexoyo",
+  "license": "ISC",
+  "dependencies": {
+    "directory-tree": "^2.2.4",
+    "ffmpeg-static": "^2.5.0",
+    "simple-thumbnail": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lexoyo/static-image-galery.git"
+  }
+}
