@@ -26,5 +26,9 @@ Command line arguments:
 * `small` size, default: "250x?"
 * `big` size, default: "800x?"
 
+Example:
 
+```sh
+* static-image-galery ~/Downloads/swl_anglet_190820 assets/swl_anglet_190820/ _data/swl_anglet_190820.json
+```
 

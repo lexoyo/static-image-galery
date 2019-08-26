@@ -1,6 +1,6 @@
 {
   "name": "static-image-galery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate thumbnails and a JSON for folders containing images.",
   "bin": "index.js",
   "scripts": {
