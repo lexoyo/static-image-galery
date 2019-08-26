@@ -8,7 +8,7 @@
     "test:watch": "nodemon . samples/mirror samples/result -e js"
   },
   "author": "lexoyo",
-  "license": "ISC",
+  "license": "GPL",
   "dependencies": {
     "directory-tree": "^2.2.4",
     "ffmpeg-static": "^2.5.0",
@@ -20,5 +20,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lexoyo/static-image-galery.git"
-  }
+  },
+  "keywords": ["jekyll", "galery", "slideshow", "gatsby", "static", "static site generator", "hugo"]
 }
